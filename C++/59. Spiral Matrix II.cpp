@@ -29,7 +29,7 @@ class Solution {
                     num++;
                 }
                 direc=3;
-                bot--; // decrease bottum row
+                bot--;
             }
             else if(direc==3){
                 for(int i=bot;i>=top;i--){
@@ -37,7 +37,7 @@ class Solution {
                     num++;
                 }
                 direc=0;
-                left++; //increase left col
+                left++;
             }
         }
         return sol;
