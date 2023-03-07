@@ -1,7 +1,6 @@
 class Solution {
 public:
     int longestPalindrome(string s) {
-        int ans = 0;
         int n = s.size();
         int count = 0;
         map<char,int> mp;
