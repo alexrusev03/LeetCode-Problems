@@ -31,7 +31,7 @@ public:
     }
     TreeNode* sol(int l, int r, vector<int> &res){
         if(l>r){
-            return 0;
+            return NULL;
         }
         int m = (l+r)/2;
         TreeNode* root= new TreeNode(res[m]);
